@@ -1,0 +1,112 @@
+body{
+
+    font-family: "Comic Sans MS";
+    background-color: white;
+
+        color: black;
+    width: auto;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    font-weight: lighter;
+    font-size: 70px;
+    height: auto;
+
+
+}
+
+h2{
+    text-align: left;
+font-weight: 400;
+    font-size: 35px;
+}
+
+.bloc1{
+text-align: left;
+   margin: auto;
+    border: 3px solid black;
+    padding:10px;
+  margin:15px 320px 15px 320px;
+
+}
+
+.bloc2{
+    color: darkgray;
+    font-family: Arial, fantasy;
+}
+
+#navigation1{
+  /*  border: 1px solid blue;*/
+flex-wrap: wrap;
+    display: flex;
+   float: left;
+  margin-left: 400px;
+
+}
+
+#navigation2 li{
+    padding: 7px;
+}
+#navigation1 li{
+    padding: 7px;
+}
+.couleur2{
+    font-weight: bold;
+}
+.couleur2:hover{
+    text-decoration: underline;
+}
+div.centre{
+    text-align:center;
+
+
+}
+
+.couleur:hover{
+    color: darkgrey;
+}
+
+
+
+#navigation2{
+    float: right;
+    color: black;
+    margin-right: 600px;
+
+}
+
+.navigation3{
+    float: left;
+    border: 3px solid black;
+}
+
+.bloc5{
+
+
+    text-decoration: underline;
+   float: right;
+}
+
+
+
+div.bloc4{
+vertical-align:bottom;
+padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+
+a{
+    text-transform: full-width;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+nav li{
+    display: inline;
+    color: black;
+}

@@ -1,0 +1,63 @@
+body{
+    font-family: 'Kalam', cursive;
+    width: 80%;
+    text-align: center;
+    color black;
+    font-weight: 12px;
+    background-color: white;
+
+
+}
+
+
+h1{
+    text-decoration: solid;
+
+}
+
+h2{
+    font-size: large;
+
+}
+
+#conteneur1 li{
+
+    float: left;
+    display: inline;
+    text-decoration: none;
+    margin: 5px;
+}
+
+#conteneur2 li{
+    float: right;
+    display: inline;
+    margin:8px;
+}
+.conteneur3 li{
+    float: left;
+    display: inline;
+    text-decoration: underline;
+    margin: 5px;
+
+}
+.lien{
+    float: right;
+
+}
+div{
+
+    border: 5px solid black;
+    width: 600px;
+    height: auto;
+    margin:auto;
+    margin-top: 20px;
+
+}
+
+h4{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}

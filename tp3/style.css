@@ -1,0 +1,127 @@
+body{
+
+    font-family: Bradley Hand, cursive;
+    text-align: center;
+    font-size: x-large;
+    background-image: url("images/imagedefond.jpg");
+    background-attachment: fixed;
+
+}
+
+nav li{
+    display:inline;
+    text-decoration: underline;
+}
+
+.menunavigation{
+    background-color: cyan;
+border: 5px solid yellow;
+    margin: 105px;
+    color: black;
+    border-radius: 15%;
+    font-size: 35px;
+padding: 5px;
+    text-decoration: none;
+    transition: 1s all;
+    }
+
+
+.menu{
+    padding-top: 20px;
+
+}
+.menu li{
+    text-decoration: none;
+}
+.item{
+    -webkit-box-shadow: -42px 20px 39px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -42px 20px 39px 2px rgba(0,0,0,0.75);
+    box-shadow: -42px 20px 39px 2px rgba(0,0,0,0.75);
+    margin: 15px;
+    transition: 1s all;
+}
+
+.item2{
+    transition: 1s all;
+}
+.contenair{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+
+
+}
+
+ul li{
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+h1{
+    /*border: 3px solid black;*/
+    color: yellow;
+    font-weight: bold;
+    font-size: 50px;
+    margin: auto;
+}
+
+h2{
+    /*border: 3px solid black;*/
+    color: yellow;
+    margin: auto;
+}
+
+.test{
+    border: 2px solid black;
+    color: red;
+    background-color: white;
+    width: 350px;
+    height: 320px;
+    text-align:center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8%;
+
+}
+
+
+.item:hover:nth-child(even){
+
+transition: 1s;
+    transform: scale(0.75) rotate(1turn);
+
+}
+
+.menunavigation:hover{
+    font-size: 50px;
+}
+.ima3:hover{
+    transform: scale(1.5,1.5);
+    transition: 3s;
+}
+
+.recherche{
+    margin-top: 200px;
+
+}
+
+.about{
+    font-size: 50px;
+    padding-top: 100px;
+    color: magenta;
+
+}
+
+.about2{
+    font-size: small;
+    padding-top: 15px;
+    color:brown;
+    border: 3px solid aqua;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    flex-wrap: wrap;
+    display: inline-flex;
+    border-radius: 15%;
+
+}

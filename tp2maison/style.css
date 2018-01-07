@@ -1,0 +1,79 @@
+body{
+
+    font-family: "Comic Sans MS";
+    background-color: white;
+
+        color: black;
+    width: auto;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    font-weight: lighter;
+    font-size: 60px;
+
+
+}
+
+h2{
+    text-align: left;
+font-weight: 400;
+    font-size: 35px;
+}
+
+.bloc1{
+text-align: left;
+    margin: auto;
+    border: 3px solid black;
+    padding:10px;
+    margin:15px 320px 15px 320px;
+
+}
+
+.bloc2{
+    color: darkgray;
+    font-family: Arial, fantasy;
+}
+
+#navigation1{
+
+    float: left;
+    margin-left: 20px;
+    padding-left: 500px;
+
+}
+
+#navigation2{
+    float: right;
+    color: black;
+    padding-right: 500px;
+
+}
+
+.navigation3{
+    float: left;
+    border: 3px solid black;
+}
+
+
+
+div.bloc4{
+vertical-align:bottom;
+padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+
+a{
+    text-transform: full-width;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+nav li{
+    display: inline;
+    color: black;
+}
